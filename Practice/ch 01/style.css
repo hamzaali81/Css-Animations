@@ -1,14 +1,21 @@
 button {
     background-color: blue;
     color: white;
-    width: 10%;
-    height: 10%;
+    width: 290px;
+    height: 90px;
     border: none;
     /* transition: background-color 0.2s; */
-    transition-property: background-color;
-    transition-duration: 0.4s;
+    /* transition-property: background-color color width; */
+    /* transition-property: all;
+    transition-duration: 0.2s; */
+    /* transition: all delay; */
+    transition: all 2s ease-in 3s;
+    transition: background-color 1s ease 2s, color 3s ease-out 4s, border-radius 5s ease-in 6s;
 }
 
 button:hover {
-    background-color: firebrick;
+    background-color: green;
+    color: black;
+    width: 600px;
+    border-radius: 50%;
 }
