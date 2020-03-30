@@ -1,5 +1,5 @@
 body {
-    perspective: 300px;
+    perspective: 500px;
 }
 
 img {
@@ -12,5 +12,6 @@ img {
 }
 
 img:hover {
-    transform: translateZ(800px);
+    /* transform: rotateX(90deg); */
+    transform: rotateY(60deg);
 }
