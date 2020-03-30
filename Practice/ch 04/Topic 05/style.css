@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* background-color: black; */
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    border: 3px solid red;
+    padding: 40px 80px;
+    color: red;
+    position: relative;
+    transition: all 1s;
+    overflow: hidden;
+}
+
+a:before {
+    content: 'YEAH';
+    position: absolute;
+    color: white;
+    background-color: blue;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transform: translateY(-100%);
+    transition: all 1s;
+    /* z-index: -1; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover:before {
+    transform: translateY(0);
+}
