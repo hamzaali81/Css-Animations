@@ -1,0 +1,23 @@
+img {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: block;
+    margin-top: 200px;
+    transition: transform 2s;
+    /* transform-origin: bottom; */
+    /* transform-origin: top left; */
+    transform-origin: 50% 50%;
+    transform-origin: 100px 30%;
+}
+
+img:hover {
+    /* transform: translate(500px, 90px); */
+    /* transform: scaleX(-1); */
+    /* transform: scale(2); */
+    /* transform: rotate(120turn); */
+    /* transform: rotate(120grad); */
+    /* transform: skewX(-30deg); */
+    /* transform: skew(30deg, 20deg); */
+    transform: rotate(40deg);
+}
