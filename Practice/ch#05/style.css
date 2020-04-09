@@ -1,0 +1,41 @@
+            body {
+                margin: 0;
+            }
+            
+            div {
+                width: 150px;
+                height: 150px;
+                background-color: red;
+                /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+                animation-name: move;
+                animation-duration: 5s;
+                /* animation-fill-mode: forwards;
+                animation-fill-mode: none; */
+                /* animation-fill-mode: backwards; */
+                animation-fill-mode: both;
+                /* animation-iteration-count: 3; */
+                /* animation-iteration-count: infinite; */
+                /* animation-delay: 3s; */
+                animation-timing-function: ease;
+            }
+            
+            @keyframes move {
+                /* from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(1000px);
+    } */
+                0% {
+                    transform: translateX(0px);
+                }
+                /* 50% {
+                    transform: translateX(1000px);
+                } */
+                50% {
+                    transform: translateX(1000px);
+                }
+                100% {
+                    transform: translate(1000px, 500px);
+                }
+            }
