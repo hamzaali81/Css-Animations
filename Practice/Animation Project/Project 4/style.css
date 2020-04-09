@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    background-image: url(jungle.jpg);
+    height: 100vh;
+    position: bottom left;
+    animation: move 5s linear infinite;
+}
+
+@keyframes move {
+    0% {
+        background-position: bottom left;
+    }
+    100% {
+        background-position: bottom right;
+    }
+}
+
+.tank {
+    width: 500px;
+    left: 600px;
+    bottom: 45px;
+    position: absolute;
+}
