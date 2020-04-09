@@ -1,0 +1,18 @@
+body {
+    perspective: 500px;
+}
+
+img {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    margin-top: 200px;
+    display: block;
+    transition: transform 1s;
+    /* perspective: 1000px; not apply */
+}
+
+img:hover {
+    /* transform: translateZ(300px); */
+    transform: rotateX(90deg);
+}
