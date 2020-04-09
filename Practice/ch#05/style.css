@@ -7,19 +7,21 @@
                 height: 150px;
                 background-color: red;
                 /* animation: name duration timing-function delay iteration-count direction fill-mode; */
-                animation-name: move;
-                animation-duration: 5s;
+                /* animation-name: move;
+                animation-duration: 5s; */
                 /* animation-fill-mode: forwards;
                 animation-fill-mode: none; */
                 /* animation-fill-mode: backwards; */
-                animation-fill-mode: both;
+                /* animation-fill-mode: both; */
                 /* animation-iteration-count: 3; */
                 /* animation-iteration-count: infinite; */
                 /* animation-delay: 3s; */
                 /* animation-timing-function: ease; */
                 /* animation-direction: alternate; */
-                animation-direction: alternate-reverse;
-                animation-iteration-count: infinite;
+                /* animation-direction: alternate-reverse;
+                animation-iteration-count: infinite; */
+                /* first value animation duration and the second animation delay*/
+                animation: move 5s both 3 ease alternate 1s;
             }
             
             @keyframes move {
