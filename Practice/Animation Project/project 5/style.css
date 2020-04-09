@@ -1,0 +1,32 @@
+body {
+    background-color: #7BBF3F;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span:before {
+    content: 'ZINDABAD ';
+    color: red;
+    animation: move 5s infinite;
+}
+
+@keyframes move {
+    0% {
+        content: 'Dil Dil ';
+    }
+    50% {
+        content: 'Pakistan ';
+    }
+    100% {
+        content: 'junaid jumshed ';
+    }
+}
